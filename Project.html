@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Project.css">
+    <title>Document</title>
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aditya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./Project.html">Project</a></li>
+                    <li><a href="./Contact.html">Contact-Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h1><span id="project" class="project"></span></h1>
+    <!-- <h1>My Project's</h1> -->
+
+    
+
+
+    <footer>
+        <div class="footer">
+            <div class="f1">
+                <h3>Aditya-Developer Portfolio</h3>
+            </div>
+            <div class="f2">
+
+                <span>About</span>
+                <span>Contact</span>
+                <span>Project</span>
+
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#project', {
+            strings: ['My Project List'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) { slideIndex = 1 }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+
+    </script>
+</body>
+
+</html>

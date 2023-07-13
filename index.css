@@ -1,0 +1,154 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(6, 6, 68);
+    color: white;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(47, 11, 65);
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(187, 187, 211);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+main hr {
+    border: 0;
+    background: #a900ff;
+    height: 1.2px;
+    margin: 60px, 84px
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0;
+    align-items: center;
+}
+
+.first div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+
+}
+
+.leftsection .btn {
+    padding: 10px;
+    background: rgb(177, 25, 177);
+    color: white;
+    border: 3px solid white;
+    border-radius: 67px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.leftsection .button {
+    padding: 20px;
+}
+
+.rightsection img {
+    width: 85%;
+    margin: 20px 0;
+}
+
+.red {
+    color: rgb(177, 25, 177)
+}
+
+.blue {
+    color: gray;
+}
+
+#element {
+    color: rgb(177, 25, 177)
+}
+
+.second {
+    max-width: 70vw;
+    margin: 30px;
+    
+    height: 80vh;
+}
+
+.second h1 {
+    font-size: 1.6rem;
+}
+
+.second .box {
+    background: white;
+    width: 61vw;
+    height: 2px;
+    margin: 66px 0;
+    display: flex;
+}
+
+.second .vertical {
+    height: 50px;
+    width: 1px;
+    background: white;
+    margin: 0 122px;
+}
+
+.vertical-text {
+    position: relative;
+    top: 66px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 85px;
+    color: gray;
+    font-size: 11px;
+    width: 171px;
+
+}
+
+.footer {
+    background-color: #564e8d5c;
+    height: 100px;
+}
+
+.footer .f1 {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.footer .f2{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;  
+}

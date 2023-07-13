@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya-Developer Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aditya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./Project.html">Project</a></li>
+                    <li><a href="./Contact.html">Contact-Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, My name is <span class="red">Aditya</span>
+                <div>And I am a Passionate</div>
+
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="first.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+        <section class="second">
+            <span class="blue">What i have done so far</span>
+            <h1>Project's</h1>
+            <div class="box">
+                <div class="vertical">
+                    <!-- <img class="image-top" src="" alt=""> -->
+                    <div class="vertical-text">
+                        Inventory Management Project
+                    </div>
+                    <div class="vertical-desc">
+                        this project developed in Visual-Studio using c# language. this project simply manage all
+                        growsary iteam's <br>
+                        for database i used microsoft SQL server studio. databse connect via odbc.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <div class="vertical-text">
+                        Library Management Project
+                    </div>
+                    <div class="vertical-desc">
+                        This project developed in Apache Netbeans using java language. purpose of this project is all
+                        books <br>
+                        are managed in one software.in this project no database connection.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-text">
+                        Real-Estate Web-site
+                    </div>
+                    <div class="vertical-desc">
+                        This Web-site developed in VS-code using ReactJS,HTML,CSS. this is my first
+                        web-site using react. this web-site is front-end no Backend
+                        this web-site is responsive in mobile. for referance i watched youtube videos. this web-site
+                        deploy in Cloud-flare server.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-text">
+                        E-Commerce Web-site (on-Going)
+                    </div>
+                    <div class="vertical-desc">
+                        This Web-site Developed in VS-code using ReactJs,HTML,TailwindCSS.this web-site is Frontend.
+                        many pages
+                        are in this web-site. this web-site is responsive
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="f1">
+                <h3>Aditya-Developer Portfolio</h3>
+            </div>
+            <div class="f2">
+                             
+                    <span>About</span>
+                    <span>Contact</span>
+                    <span>Project</span>
+
+           
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web-Devloper', 'Web-Designer', '&amp; Trader.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

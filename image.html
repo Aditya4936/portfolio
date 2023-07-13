@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img class="mySlides" src="./image/login_Page.png" alt="">
+    <img class="mySlides" src="./image/add new Unit.png" alt="">
+    <img class="mySlides" src="./image/add product.png" alt="">
+    <img class="mySlides" src="./image/dealer info.png" alt="">
+
+    <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) { slideIndex = 1 }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+
+</html>

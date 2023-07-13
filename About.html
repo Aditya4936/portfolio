@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <!-- <link rel="stylesheet" href="./About.css"> -->
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: rgb(6, 6, 68);
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(47, 11, 65);
+      height: 50px;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      color: rgb(187, 187, 211);
+      font-size: 1.02rem;
+    }
+
+    .about {
+      display: flex;
+      justify-content: space-around;
+      margin: 140px 0;
+      align-items: center;
+    }
+
+    .about div {
+      width: 30%;
+    }
+    
+
+
+    .footer {
+      background-color: #564e8d5c;
+      height: 100px;
+
+    }
+
+    .footer .f1 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer .f2 {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    img {
+      display: block;
+      width: 85%;
+      margin: 20px 0;
+      border-radius: 5px;
+      transition: ease-in;
+      transition-duration: 100ms;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Aditya's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./About.html">About</a></li>
+          <li><a href="./Project.html">Project</a></li>
+          <li><a href="./Contact.html">Contact-Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="about">
+    <div class="left-section">
+     <h1> <span id="element"></span></h1>
+      <!-- <h1>About</h1> -->
+      <p>This is my Portfolio Web-site.</p>
+      <p>I am a Computer engineer who loves to create new things.</p>
+      <p>I am passionate about Web-Devloping, Wordpress-devloper and DBMS.</p>
+      <p>I am already developed project on ReactJS,HTML,CSS,SQL.</p>
+      <p>I am always looking for ways to improve my skills and knowledge.</p>
+    </div>
+    <div class="rightsection">
+      <img src="ak.JPG" alt="">
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <div class="f1">
+        <h3>Aditya-Developer Portfolio</h3>
+      </div>
+      <div class="f2">
+
+        <span>About</span>
+        <span>Contact</span>
+        <span>Project</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+      var typed = new Typed('#element', {
+          strings: ['About Me'],
+          typeSpeed: 50,
+      });
+  </script>
+  
+</body>
+
+</html>
